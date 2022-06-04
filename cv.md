@@ -2,6 +2,8 @@
 
 ## **Anna Golosova**
 
+![avatar](/img/photo.jpg)
+
 ### Contacts
 
 - Email: golosova76@gmail.ru
