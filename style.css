@@ -1,3 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Serif:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+
+/* Обнуление стилей */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1;
+}
+
+/* ------------- */
+
+/* Общие стили */
+
 body {
-  background-color: aliceblue;
+  font-family: "Roboto Serif", sans-serif;
+  background: #e3e3e3;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+[class*="__container"] {
+  max-width: 1050px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.footer {
+}
+
+.header {
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.header__container {
+  background-color: rgba(52, 170, 238, 0.814);
+  padding: 15px;
+}
+.header__menu {
+}
+.menu {
+}
+.menu__items {
+  display: flex;
+  column-gap: 20px;
+  justify-content: flex-end;
+}
+.menu__item {
+}
+.page {
+}
+.page__container {
+}
+.page__columns {
+  display: flex;
+}
+.page__column {
+}
+.page__about {
+}
+.about {
+}
+.about__title {
+}
+.about__image {
+}
+.about__items {
+}
+.about__item {
+}
+.summary {
+}
+.summary__title {
+}
+.summary__text {
+}
+.language {
+}
+.language__title {
+}
+.language__items {
+}
+.language__item {
+}
+.education {
+}
+.education__title {
+}
+.education__items {
+}
+.education__item {
+}
+.skills {
+}
+.skills__title {
+}
+.skills__items {
+}
+.skills__item {
+}
+.code {
+}
+.code__title {
+}
+.code_text {
+}
+.experience {
+}
+.experience__title {
+}
+.experience__link {
+}
+.footer {
+}
+.footer__container {
+  background-color: rgba(52, 170, 238, 0.814);
+  padding: 15px;
+}
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.footer__item {
+}
+.footer__link {
+}
+.footer__image {
+  width: 100%;
+  height: 30px;
+  object-fit: cover;
 }
